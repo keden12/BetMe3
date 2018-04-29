@@ -63,4 +63,15 @@
     <string name="paypal">PayPal</string>
     <string name="debit">Debit</string>
     <string name="please_select_your_payment_method">Please Select Your Payment Method!</string>
+    <string name="logemail">Email</string>
+    <string name="enter_display_name">Enter display name</string>
+    <string name="textviewd7n1">TextView</string>
+    <string name="textviewd7n2">TextView</string>
+    <string name="textviewd7n3">TextView</string>
+    <string name="textviewd7n4">TextView</string>
+    <string name="textviewd7n5">TextView</string>
+    <string name="textviewd7npb">TextView</string>
+    <string name="dollar7n1">TextView</string>
+    <string name="check_numbers">Check Numbers</string>
+    <string name="imagepb">ImagePb</string>
 </resources>

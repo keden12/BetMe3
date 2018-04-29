@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toolbarbackground">
+
+    <Button
+        android:id="@+id/checkoldmega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultcheck"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/oldresultbackground"
+        android:text="Previous Numbers" />
+
+    <Button
+        android:id="@+id/resultcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_below="@+id/numberpick4"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/registerbackground"
+        android:text="Check Numbers"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <NumberPicker
+        android:id="@+id/numberpick6"
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:layout_alignStart="@+id/numberpick3"
+        android:layout_alignTop="@+id/numberpick5" />
+
+    <NumberPicker
+        android:id="@+id/numberpick5"
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:layout_alignStart="@+id/numberpick2"
+        android:layout_alignTop="@+id/numberpick4" />
+
+    <NumberPicker
+        android:id="@+id/numberpick4"
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:layout_alignStart="@+id/numberpick1"
+        android:layout_below="@+id/numberpick1"
+        android:layout_marginTop="36dp" />
+
+    <NumberPicker
+        android:id="@+id/numberpick3"
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/numberpick2"
+        android:layout_marginEnd="13dp" />
+
+    <NumberPicker
+        android:id="@+id/numberpick2"
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:layout_alignTop="@+id/numberpick1"
+        android:layout_centerHorizontal="true" />
+
+    <NumberPicker
+        android:id="@+id/numberpick1"
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="18dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="800px"
+        android:layout_height="400px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/megamillions"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+</RelativeLayout>

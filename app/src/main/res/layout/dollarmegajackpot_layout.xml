@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/previous_powerball">
+
+
+    <TextView
+        android:id="@+id/textviewview7d3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView17"
+        android:layout_below="@+id/textviewview7d2"
+        android:layout_marginTop="11dp"
+        android:text="You just hit the jackpot!"
+        android:textSize="80px" />
+
+    <TextView
+        android:id="@+id/textviewview7d2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/dollar7number3"
+        android:layout_below="@+id/textviewview7d"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="10dp"
+        android:text="1 in 302,575,350"
+        android:textSize="80px" />
+
+    <TextView
+        android:id="@+id/dollar7numberpb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dollar7number5"
+        android:layout_alignBottom="@+id/dollar7number5"
+        android:layout_alignStart="@+id/dollar7number3"
+        android:background="@drawable/rounded_mega"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/dollar7number5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dollar7number4"
+        android:layout_alignBottom="@+id/dollar7number4"
+        android:layout_alignStart="@+id/dollar7number2"
+        android:background="@drawable/rounded_textview"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/dollar7number4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dollar7number1"
+        android:layout_below="@+id/dollar7number1"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/rounded_textview"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/dollar7number3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dollar7number2"
+        android:layout_alignBottom="@+id/dollar7number2"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/dollar7number2"
+        android:background="@drawable/rounded_textview"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/dollar7number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dollar7number1"
+        android:layout_alignBottom="@+id/dollar7number1"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/dollar7number1"
+        android:background="@drawable/rounded_textview"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/textviewview7d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="34dp"
+        android:text="The odds of this was"
+        android:textSize="80px" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textviewview7d"
+        android:layout_below="@+id/textviewview7d3"
+        android:layout_marginTop="14dp"
+        android:text="Current draw numbers"
+        android:textSize="80px" />
+
+    <TextView
+        android:id="@+id/dollar7number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView17"
+        android:background="@drawable/rounded_textview"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_below="@+id/textView17"
+        android:layout_marginTop="25dp"
+        android:text="@string/dollar7n1" />
+</RelativeLayout>

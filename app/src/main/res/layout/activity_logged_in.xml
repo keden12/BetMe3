@@ -16,11 +16,11 @@
     </android.support.design.widget.AppBarLayout>
 
     <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/cardView">
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -29,15 +29,15 @@
 
             <EditText
                 android:id="@+id/Balance"
-                android:layout_width="100dp"
+                android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:background="#80000000"
                 android:drawableStart="@drawable/ic_action_money"
-                android:labelFor="@id/Balance"
                 android:ems="10"
                 android:inputType="none"
+                android:labelFor="@id/Balance"
                 android:textColor="@color/colorMoney"
                 tools:text="@string/balance" />
 
@@ -47,42 +47,50 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
-                android:labelFor="@id/Player"
                 android:background="#80000000"
                 android:drawableStart="@drawable/ic_action_user3"
                 android:ems="10"
                 android:inputType="none"
+                android:labelFor="@id/Player"
                 android:textColor="@color/colorYellow"
                 tools:text="@string/player" />
 
             <TextView
-                android:id="@+id/addCredits"
+                android:id="@+id/Logout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_toEndOf="@+id/Balance"
-                android:drawableRight="@drawable/ic_action_addcredits" />
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:drawableRight="@drawable/ic_action_logoff2" />
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>
 
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/AddBet"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentBottom="true"
+    <ImageButton
+        android:id="@+id/powerballbutton"
+        android:layout_width="2000px"
+        android:layout_height="1000px"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="24dp"
-        android:layout_marginStart="29dp"
-        android:clickable="true"
-        app:srcCompat="@drawable/ic_action_addbet" android:focusable="true"/>
+        android:layout_below="@+id/cardView"
+        app:srcCompat="@drawable/powerball" />
 
-    <ListView
-        android:id="@+id/BetList"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/cardView" />
+    <ImageButton
+        android:id="@+id/megabutton"
+        android:layout_width="wrap_content"
+        android:layout_height="1000px"
+        android:layout_below="@+id/powerballbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        app:srcCompat="@drawable/megamillions" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/powerballbutton"
+        android:layout_centerHorizontal="true"
+        android:text="Currently Supported Lotteries"
+        android:textSize="80px" />
+
 
 </RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/previous_powerball">
+
+    <TextView
+        android:id="@+id/previousnum6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/previousnum5"
+        android:layout_alignBottom="@+id/previousnum5"
+        android:layout_alignStart="@+id/previousnum3"
+        android:background="@drawable/rounded_mega"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/previousnum5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/previousnum2"
+        android:layout_below="@+id/previousnum2"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/rounded_textview"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/previousnum4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/previousnum5"
+        android:layout_alignBottom="@+id/previousnum5"
+        android:layout_alignStart="@+id/previousnum1"
+        android:background="@drawable/rounded_textview"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/previousnum3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/previousnum2"
+        android:layout_alignBottom="@+id/previousnum2"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/previousnum2"
+        android:background="@drawable/rounded_textview"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/previousnum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/previousnum1"
+        android:layout_alignBottom="@+id/previousnum1"
+        android:layout_marginStart="6dp"
+        android:layout_toEndOf="@+id/previousnum1"
+        android:background="@drawable/rounded_textview"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:text="Previous draw numbers"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="80px"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:id="@+id/previousnum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView8"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/rounded_textview"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark" />
+</RelativeLayout>
